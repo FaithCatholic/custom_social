@@ -1,0 +1,14 @@
+{
+  "name": "drupal/custom_social",
+  "type": "drupal-module",
+  "description": "Provides custom social functionality such as sharing.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/custom_social",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/custom_social",
+    "source": "http://cgit.drupalcode.org/custom_social"
+  },
+  "require": { }
+}
