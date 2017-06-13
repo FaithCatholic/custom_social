@@ -1,5 +1,5 @@
 {
-  "name": "drupal/custom_social",
+  "name": "faithcatholic/custom_social",
   "type": "drupal-module",
   "description": "Provides custom social functionality such as sharing.",
   "keywords": ["Drupal"],
