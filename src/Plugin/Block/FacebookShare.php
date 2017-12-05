@@ -59,7 +59,7 @@ class FacebookShare extends BlockBase implements ContainerFactoryPluginInterface
   public function build() {
     $build = [];
     $build['facebook_share']['#markup'] = '<div class="fb-share-button" data-href="'. $this->pathCurrent->getPath() .'" data-layout="button" data-size="small" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u='. urlencode($this->pathCurrent->getPath()) .';src=sdkpreparse">Share</a></div>';
-
+    $build['facebook_share']['#cache'] = array('contexts' => array('url.path'));
     return $build;
   }
 
