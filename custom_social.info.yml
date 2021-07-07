@@ -2,6 +2,7 @@ name: Custom social
 type: module
 description: Provides custom social functionality such as sharing.
 core: 8.x
+core_version_requirement: ^8 || ^9
 package: Custom
 dependencies:
   - block
